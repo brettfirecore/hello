@@ -1,7 +1,10 @@
 package hello
 
-import "fmt"
+import (
+	"fmt"
+	"io"
+)
 
-func Print() {
-    fmt.Println("Hello from my own package!")
+func Print(w io.Writer) {
+	fmt.Fprintln(w, "Hello, world!")
 }

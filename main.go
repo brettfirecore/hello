@@ -1,7 +1,10 @@
 package main
 
-import "github.com/brettfirecore/hello/hello"
+import (
+    "os"
+    "github.com/brettfirecore/hello/hello"
+)
 
 func main() {
-    hello.Print()
+    hello.Print(os.Stdout)
 }
