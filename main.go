@@ -1,8 +1,6 @@
 package main
 
-import (
-    "github.com/bitfield/hello"
-)
+import "github.com/brettfirecore/hello"
 
 func main() {
     hello.Print()
