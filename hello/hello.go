@@ -8,3 +8,4 @@ import (
 func Print(w io.Writer) {
 	fmt.Fprintln(w, "Hello, world!")
 }
+
